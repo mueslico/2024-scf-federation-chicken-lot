@@ -1,0 +1,37 @@
+{
+  "name": "2024-scf-federation-chicken-lot",
+  "version": "1.0.0",
+  "description": "연합우주발 SCF 게시물 공유 이벤트 소스코드",
+  "main": "lot.js",
+  "scripts": {
+    "start": "node lot.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mueslico/2024-scf-federation-chicken-lot.git"
+  },
+  "keywords": [
+    "SCF",
+    "Chicken",
+    "Subculture",
+    "Festival"
+  ],
+  "author": "MUESLI Co., Ltd.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mueslico/2024-scf-federation-chicken-lot/issues"
+  },
+  "homepage": "https://github.com/mueslico/2024-scf-federation-chicken-lot#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "prettier": "^3.2.5",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
